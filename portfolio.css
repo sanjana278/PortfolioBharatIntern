@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #hero {
+    background-image: url('port2.jpg'); /* Add your background image */
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: white;
+  }
+  
+  .box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #about,
+  #skills,
+  #contact {
+    padding: 50px 0;
+    background-image: url('port2.jpg');
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+/* Add this CSS code */
+
+.hero-text {
+    text-align: left; /* Align text to the left */
+    color: white;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Add some gap between the profile picture and text */
+  }
+  
+  .profile-img {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Hide overflow if needed */
+  }
+  
+  .profile-img img {
+    width: 100%; /* Make sure the image fills the circle */
+    height: 100%; /* Make sure the image fills the circle */
+    object-fit: cover; /* Cover the entire circle with the image */
+  }
+  
